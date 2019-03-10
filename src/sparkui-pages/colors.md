@@ -1,6 +1,6 @@
 ---
 path: "/docs/colors"
-date: "2017-03-10"
+date: "2019-03-10"
 title: "Colors"
 ---
 
@@ -47,7 +47,7 @@ In sparkUI we have 7 Primary colors, 7 Accent colors, 28 Semantic colors, 19 Neu
   <div class="c-spark-docs-colors-item u-bg-accent--blue u-color-neutral--sky-white">
     blue<br /> #0099ff
   </div>
-  <div class="c-spark-docs-colors-item u-bg-accent--blue-light">
+  <div class="c-spark-docs-colors-item u-bg-accent--blue-light u-color-neutral--sky-white">
     blue-light <br /> #32adff
   </div>
   <div class="c-spark-docs-colors-item u-bg-accent--blue-lighter">
@@ -206,32 +206,32 @@ In sparkUI we have 7 Primary colors, 7 Accent colors, 28 Semantic colors, 19 Neu
 ### Black
 <div class="c-spark-docs-colors-container">
   <div class="c-spark-docs-colors-item u-bg-neutral--black u-color-neutral--sky-white">
-    black<br /> #e5e9f1
+    black<br /> #000000
   </div>
   <div class="c-spark-docs-colors-item u-bg-neutral--black-light u-color-neutral--sky-white">
-    black-light <br /> #f2f4f8
+    black-light <br /> #4c4c4c
   </div>
   <div class="c-spark-docs-colors-item u-bg-neutral--black-lighter u-color-neutral--sky-white">
-    black-lighter <br /> #f9fafc
+    black-lighter <br /> #999999
   </div>
   <div class="c-spark-docs-colors-item u-bg-neutral--black-lightest">
-    black-lightest <br /> #fcfcfd
+    black-lightest <br /> #e5e5e5
   </div>
 </div>
 
 ### Grey
 <div class="c-spark-docs-colors-container">
   <div class="c-spark-docs-colors-item u-bg-neutral--grey u-color-neutral--sky-white">
-    grey<br /> #e5e9f1
+    grey<br /> #808080
   </div>
   <div class="c-spark-docs-colors-item u-bg-neutral--grey-light u-color-neutral--sky-white">
-    grey-light <br /> #f2f4f8
+    grey-light <br /> #a6a6a6
   </div>
   <div class="c-spark-docs-colors-item u-bg-neutral--grey-lighter u-color-neutral--sky-white">
-    grey-lighter <br /> #f9fafc
+    grey-lighter <br /> #cccccc
   </div>
   <div class="c-spark-docs-colors-item u-bg-neutral--grey-lightest">
-    grey-lightest <br /> #fcfcfd
+    grey-lightest <br /> #f2f2f2
   </div>
 </div>
 
@@ -239,74 +239,74 @@ In sparkUI we have 7 Primary colors, 7 Accent colors, 28 Semantic colors, 19 Neu
 ### Sequential
 <div class="c-spark-docs-colors-container">
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-0 u-color-neutral--sky-white">
-    Opacity-0 <br /> #e5e9f1
+    Opacity-0 <br /> #00287a
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-1 u-color-neutral--sky-white">
-    Opacity-1 <br /> #f2f4f8
+    Opacity-1 <br /> #043489
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-2 u-color-neutral--sky-white">
-    Opacity-2 <br /> #f9fafc
+    Opacity-2 <br /> #094ca5
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-3 u-color-neutral--sky-white">
-    Opacity-3 <br /> #fcfcfd
+    Opacity-3 <br /> #0b58b3
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-4 u-color-neutral--sky-white">
-    Opacity-4 <br /> #fcfcfd
+    Opacity-4 <br /> #0b6ecd
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-5 u-color-neutral--sky-white">
-    Opacity-5 <br /> #fcfcfd
+    Opacity-5 <br /> #0a78d9
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-6 u-color-neutral--sky-white">
-    Opacity-6 <br /> #fcfcfd
+    Opacity-6 <br /> #2285dc
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-7 u-color-neutral--sky-white">
-    Opacity-7 <br /> #fcfcfd
+    Opacity-7 <br /> #3a93e0
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-8 u-color-neutral--sky-white">
-    Opacity-8 <br /> #fcfcfd
+    Opacity-8 <br /> #53a0e4
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-9 u-color-neutral--sky-white">
-    Opacity-9 <br /> #fcfcfd
+    Opacity-9 <br /> #6caee8
   </div>
-  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-10 u-color-neutral--sky-white">
-    Opacity-10 <br /> #fcfcfd
+  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-10">
+    Opacity-10 <br /> #84bbec
   </div>
-  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-11 u-color-neutral--sky-white">
-    Opacity-11 <br /> #fcfcfd
+  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-11">
+    Opacity-11 <br /> #9dc9ef
   </div>
-  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-12 u-color-neutral--sky-white">
-    Opacity-12 <br /> #fcfcfd
+  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-12">
+    Opacity-12 <br /> #b5d6f3
   </div>
-  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-13 u-color-neutral--sky-white">
-    Opacity-13 <br /> #fcfcfd
+  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-13">
+    Opacity-13 <br /> #cee4f7
   </div>
-  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-14 u-color-neutral--sky-white">
-    Opacity-14 <br /> #fcfcfd
+  <div class="c-spark-docs-colors-item u-bg-visuals-sequential--opacity-14">
+    Opacity-14 <br /> #e6f1fb
   </div>
 </div>
 
 ###Categorical
 <div class="c-spark-docs-colors-container">
   <div class="c-spark-docs-colors-item u-bg-visuals-categorical--navy-blue u-color-neutral--sky-white">
-    navy-blue <br /> #e5e9f1
+    navy-blue <br /> #7f93bc
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-categorical--blue u-color-neutral--sky-white">
-    blue <br /> #f2f4f8
+    blue <br /> #7fccff
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-categorical--molrose u-color-neutral--sky-white">
-    molrose <br /> #f2f4f8
+    molrose <br /> #cccccc
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-categorical--green u-color-neutral--sky-white">
-    green <br /> #f2f4f8
+    green <br /> #7fdfb1
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-categorical--yellow u-color-neutral--sky-white">
-    yellow <br /> #f2f4f8
+    yellow <br /> #ffdd7f
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-categorical--orange u-color-neutral--sky-white">
-    orange <br /> #f2f4f8
+    orange <br /> #ffc57f
   </div>
   <div class="c-spark-docs-colors-item u-bg-visuals-categorical--red u-color-neutral--sky-white">
-    red <br /> #f2f4f8
+    red <br /> #f8a08f
   </div>
 </div>
 
@@ -314,4 +314,43 @@ In sparkUI we have 7 Primary colors, 7 Accent colors, 28 Semantic colors, 19 Neu
 ## List of all Colors
 Color Name | Hex Value
 -----------|------------
+black | <div class="u-bg-neutral--black u-color-neutral--sky-white" >#000000 </div>
+black-light | <div class="u-bg-neutral--black-light u-color-neutral--sky-white" >#4c4c4c </div>
+black-lighter | <div class="u-bg-neutral--black-lighter u-color-neutral--sky-white" >#999999 </div>
+black-lightest | <div class="u-bg-neutral--black-lightest u-color-neutral--sky-white" >#e5e5e5 </div>
 ink | <div class="u-bg-neutral--ink u-color-neutral--sky-white" >#16253f </div>
+ink-light | <div class="u-bg-neutral--ink-light u-color-neutral--sky-white" >#445065 </div>
+ink-lighter | <div class="u-bg-neutral--ink-lighter u-color-neutral--sky-white" >#737c8b </div>
+ink-lightest | <div class="u-bg-neutral--ink-lightest u-color-neutral--sky-white" >#a1a7b2 </div>
+grey | <div class="u-bg-neutral--grey u-color-neutral--sky-white" >#808080 </div>
+grey-light | <div class="u-bg-neutral--grey-light u-color-neutral--sky-white" >#a6a6a6 </div>
+grey-lighter | <div class="u-bg-neutral--grey-lighter u-color-neutral--sky-white" >#cccccc </div>
+grey-lightest | <div class="u-bg-neutral--grey-lightest">#f2f2f2 </div>
+navy-blue | <div class="u-bg-primary--navy-blue u-color-neutral--sky-white" >#00287a </div>
+navy-blue-light | <div class="u-bg-primary--navy-blue-light u-color-neutral--sky-white" >#325294 </div>
+navy-blue-lighter | <div class="u-bg-primary--navy-blue-lighter u-color-neutral--sky-white" >#e5e9f1 </div>
+navy-blue-lightest | <div class="u-bg-primary--navy-blue-lightest">#f4f6f9 </div>
+navy-blue-dark | <div class="u-bg-primary--navy-blue-dark u-color-neutral--sky-white" >#002061 </div>
+navy-blue-darker | <div class="u-bg-primary--navy-blue-darker u-color-neutral--sky-white" >#00143d </div>
+navy-blue-text | <div class="u-bg-primary--navy-blue-text u-color-neutral--sky-white" >#333944 </div>
+blue | <div class="u-bg-accent--blue u-color-neutral--sky-white" >#0099ff </div>
+blue-light | <div class="u-bg-accent--blue-light u-color-neutral--sky-white" >#32adff </div>
+blue-lighter | <div class="u-bg-accent--blue-lighter u-color-neutral--sky-white" >#e5f4ff </div>
+blue-lightest | <div class="u-bg-accent--blue-lightest">#f4faff </div>
+blue-dark | <div class="u-bg-accent--blue-dark u-color-neutral--sky-white" >#0089e5 </div>
+blue-darker | <div class="u-bg-accent--blue-darker u-color-neutral--sky-white" >#005b99 </div>
+blue-text | <div class="u-bg-accent--blue-text u-color-neutral--sky-white" >#28435b </div>
+green | <div class="u-bg-semantic--green u-color-neutral--sky-white" >#00bf63 </div>
+green-light | <div class="u-bg-semantic--green-light u-color-neutral--sky-white" >#32cb82 </div>
+green-lighter | <div class="u-bg-semantic--green-lighter u-color-neutral--sky-white" >#e5f8ef </div>
+green-lightest | <div class="u-bg-semantic--green-lightest">#f4fcf8 </div>
+green-dark | <div class="u-bg-semantic--green-dark u-color-neutral--sky-white" >#00984f </div>
+green-darker | <div class="u-bg-semantic--green-darker u-color-neutral--sky-white" >#005f31 </div>
+green-text | <div class="u-bg-semantic--green-text u-color-neutral--sky-white" >#32503c </div>
+yellow | <div class="u-bg-semantic--yellow u-color-neutral--sky-white" >#ffbc00 </div>
+yellow-light | <div class="u-bg-semantic--yellow-light u-color-neutral--sky-white" >#ffc932 </div>
+yellow-lighter | <div class="u-bg-semantic--yellow-lighter u-color-neutral--sky-white" >#fff8e5 </div>
+yellow-lightest | <div class="u-bg-semantic--yellow-lightest">#fffcf4 </div>
+yellow-dark | <div class="u-bg-semantic--yellow-dark u-color-neutral--sky-white" >#cc9600 </div>
+yellow-darker | <div class="u-bg-semantic--yellow-darker u-color-neutral--sky-white" >#7f5e00 </div>
+yellow-text | <div class="u-bg-semantic--yellow-text u-color-neutral--sky-white" >#604f36 </div>
