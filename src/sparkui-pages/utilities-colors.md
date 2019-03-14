@@ -1,6 +1,6 @@
 ---
 path: "/docs/utilities-colors"
-date: "2017-11-07"
+date: "2019-03-10"
 title: "Utilities - Colors"
 ---
 # Colors Utilities Classes
@@ -9,12 +9,12 @@ utilities classes formulas are:
 
 Class | Usage
 ------|------
-`u-color-[COLOR_NAME]` | set current container font color to the selected color
-`u-bg-[COLOR_NAME]` | set current container background color to the selected color
-`u-fill-[COLOR_NAME]` | set current svg fill color to the selected color
-`u-stroke-[COLOR_NAME]` | set current svg stroke color to the selected color
+`u-color-[COLOR_CLASS]--[COLOR_NAME]` | set current container font color to the selected color
+`u-bg-[COLOR_CLASS]--[COLOR_NAME]` | set current container background color to the selected color
+`u-fill-[COLOR_CLASS]--[COLOR_NAME]` | set current svg fill color to the selected color
+`u-stroke-[COLOR_CLASS]--[COLOR_NAME]` | set current svg stroke color to the selected color
 
-You can find a list of all [SprakUI Colors](colors)  
+You can find a list of all [SprakUI Colors](colors)
 
 
 we also have 4 special case colors for svg fill and stroke to apply the current parent color
