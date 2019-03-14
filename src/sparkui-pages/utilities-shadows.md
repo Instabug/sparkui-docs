@@ -65,12 +65,12 @@ All Over | Modals
 ## Variables
 Name                           |      Type      |   Default Value
 -------------------------------|----------------|----------------------
-**$spark-box-shadow-raised**   |     List       | `0 2px 2px 0 rgba(39, 50, 66, 0.05)`
-**$spark-box-shadow-lifted**   |     List       | `0 3px 4px 0 rgba(39, 50, 66, 0.06)`
-**$spark-box-shadow-overlay**  |     List       | `0 4px 8px 0 rgba(39, 50, 66, 0.07)`
-**$spark-box-shadow-boost**    |     List       | `0 6px 10px 0 rgba(39, 50, 66, 0.08)`
-**$spark-box-shadow-pop-out**  |     List       | `0 7px 12px 0 rgba(39, 50, 66, 0.09)`
-**$spark-box-shadow-all-over** |     List       | `0 10px 15px 0 rgba(39, 50, 66, 0.1)`
+**$spark-box-shadow-raised**   |     List       | `0 2px 2px 0 rgba(22, 37, 63 0.05)`
+**$spark-box-shadow-lifted**   |     List       | `0 3px 4px 0 rgba(22, 37, 63 0.06)`
+**$spark-box-shadow-overlay**  |     List       | `0 4px 8px 0 rgba(22, 37, 63 0.07)`
+**$spark-box-shadow-boost**    |     List       | `0 6px 10px 0 rgba(22, 37, 63 0.08)`
+**$spark-box-shadow-pop-out**  |     List       | `0 7px 12px 0 rgba(22, 37, 63 0.09)`
+**$spark-box-shadow-all-over** |     List       | `0 10px 15px 0 rgba(22, 37, 63 0.1)`
 
 
 
@@ -80,15 +80,15 @@ There are 4 variations, they are used to apply outer box shadow to containers as
 
 Class                             | Implementation
 ----------------------------------|---------------
-**.u-box-shadow--raised**         |  `0 2px 2px 0 rgba(39, 50, 66, 0.05) !important;`
-**.u-box-shadow--lifted**         |  `0 3px 4px 0 rgba(39, 50, 66, 0.06) !important;`
-**.u-box-shadow--overlay**        |  `0 4px 8px 0 rgba(39, 50, 66, 0.07) !important;`
-**.u-box-shadow--boost**          |  `0 6px 10px 0 rgba(39, 50, 66, 0.08) !important;`
-**.u-box-shadow--pop-out**        |  `0 7px 12px 0 rgba(39, 50, 66, 0.09) !important;`
-**.u-box-shadow--all-over**       |  `0 10px 15px 0 rgba(39, 50, 66, 0.1) !important;`
-**.u-box-shadow--inset-raised**   |  `0 2px 2px 0 rgba(39, 50, 66, 0.05) inset !important;`
-**.u-box-shadow--inset-lifted**   |  `0 3px 4px 0 rgba(39, 50, 66, 0.06) inset !important;`
-**.u-box-shadow--inset-overlay**  |  `0 4px 8px 0 rgba(39, 50, 66, 0.07) inset !important;`
-**.u-box-shadow--inset-boost**    |  `0 6px 10px 0 rgba(39, 50, 66, 0.08) inset !important;`
-**.u-box-shadow--inset-pop-out**  |  `0 7px 12px 0 rgba(39, 50, 66, 0.09) inset !important;`
-**.u-box-shadow--inset-all-over** |  `0 10px 15px 0 rgba(39, 50, 66, 0.1) inset !important;`
+**.u-box-shadow--raised**         |  `0 2px 2px 0 rgba(22, 37, 63 0.05) !important;`
+**.u-box-shadow--lifted**         |  `0 3px 4px 0 rgba(22, 37, 63 0.06) !important;`
+**.u-box-shadow--overlay**        |  `0 4px 8px 0 rgba(22, 37, 63 0.07) !important;`
+**.u-box-shadow--boost**          |  `0 6px 10px 0 rgba(22, 37, 63 0.08) !important;`
+**.u-box-shadow--pop-out**        |  `0 7px 12px 0 rgba(22, 37, 63 0.09) !important;`
+**.u-box-shadow--all-over**       |  `0 10px 15px 0 rgba(22, 37, 63 0.1) !important;`
+**.u-box-shadow--inset-raised**   |  `0 2px 2px 0 rgba(22, 37, 63 0.05) inset !important;`
+**.u-box-shadow--inset-lifted**   |  `0 3px 4px 0 rgba(22, 37, 63 0.06) inset !important;`
+**.u-box-shadow--inset-overlay**  |  `0 4px 8px 0 rgba(22, 37, 63 0.07) inset !important;`
+**.u-box-shadow--inset-boost**    |  `0 6px 10px 0 rgba(22, 37, 63 0.08) inset !important;`
+**.u-box-shadow--inset-pop-out**  |  `0 7px 12px 0 rgba(22, 37, 63 0.09) inset !important;`
+**.u-box-shadow--inset-all-over** |  `0 10px 15px 0 rgba(22, 37, 63 0.1) inset !important;`
