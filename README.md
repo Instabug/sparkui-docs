@@ -2,7 +2,7 @@
   Spark UI css framework Documentation
 </h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/12c719a7-7a5d-4c55-9aff-88d2eedd4101/deploy-status)](https://app.netlify.com/sites/zen-varahamihira-0fbd19/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12c719a7-7a5d-4c55-9aff-88d2eedd4101/deploy-status)](https://sparkui-docs.netlify.com/)
 
 Spark UI is a css framework developed and maintained by Instabug Team
 
