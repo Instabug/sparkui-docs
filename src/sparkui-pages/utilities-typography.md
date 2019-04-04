@@ -4,11 +4,12 @@ date: "2017-11-07"
 title: "Utilities - Typography"
 ---
 # Typography Utilities Classes
-sparkUI used the following sizes for font size `12, 14, 16, 20, 24, 32, 48` and the default font size
+sparkUI used the following sizes for font size `10, 12, 14, 16, 20, 24, 32, 48` and the default font size
 is `16px`
 
 Class | Usage
 --- | ---
+`.u-font--tiny` | apply font size of 10px
 `.u-font--xsmall` | apply font size of 12px
 `.u-font--small` | apply font size of 14px
 `.u-font--medium` | apply font size of 16px
