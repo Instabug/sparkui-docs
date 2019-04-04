@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{127:function(n,e,a){"use strict";a.r(e),a.d(e,"query",function(){return o});var t=a(0),r=a.n(t),d=a(133),o="2430396598";e.default=function(n){var e=n.data.markdownRemark.html;return r.a.createElement(d.a,null,r.a.createElement("div",{className:"spark-docs-details-body u-window-padding--1x",dangerouslySetInnerHTML:{__html:e}}))}}}]);
-//# sourceMappingURL=component---src-templates-doc-page-js-d79c82abb67e282eb008.js.map
