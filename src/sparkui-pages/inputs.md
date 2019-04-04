@@ -7,9 +7,11 @@ title: "Inputs"
 # Inputs
 
 ## Demo
-### text inputs
+### text inputs:
 
-#### Sizes
+#### Sizes:
+3 sizes: default, medium & large
+
 <div>
   <input
     class="c-field u-bottom-margin--1x"
@@ -42,7 +44,10 @@ title: "Inputs"
   placeholder=".c-field.c-field--large - fixed height of 48px" />
 ```
 
-#### Colors
+#### Colors:
+2 colors:
+  default & error
+
 <div>
   <input
     class="c-field u-bottom-margin--1x"
@@ -55,7 +60,21 @@ title: "Inputs"
     placeholder=".c-field.c-field--error" />
 </div>
 
-#### States
+```html
+<div>
+  <input
+    class="c-field u-bottom-margin--1x"
+    type="text"
+    placeholder=".c-field" />
+
+  <input
+    class="c-field c-field--error u-bottom-margin--1x"
+    type="text"
+    placeholder=".c-field.c-field--error" />
+</div>
+```
+
+#### States:
 <div>
   <input
     class="c-field u-bottom-margin--1x"
@@ -70,12 +89,23 @@ title: "Inputs"
     placeholder=".c-field - focused input" />
 </div>
 
-#### Inputs with Label and hints
 ```html
-  <label class="c-label">Field Title</label>
-  <input class="c-field" type="text" />
-  <div class="c-hint">sample hint</div>
+<div>
+  <input
+    class="c-field u-bottom-margin--1x"
+    type="text"
+    disabled
+    placeholder=".c-field - disabled input" />
+
+  <input
+    class="c-field u-bottom-margin--1x"
+    type="text"
+    autofocus
+    placeholder=".c-field - focused input" />
+</div>
 ```
+
+#### Inputs with Label and hints:
 <div class="u-bottom-margin--3x">
   <label
     class="c-label"
@@ -87,6 +117,14 @@ title: "Inputs"
     class="c-field"
     type="text"
     placeholder="Username" />
+  <div class="c-hint">test hint</div>
+</div>
+
+<div class="u-bottom-margin--3x">
+  <label class="c-label u-color-neutral--grey-lighter" for="sampleInputFieldSmall">
+    for disabled input to give color to label u need to add ng-class for disabled with u-color-neutral--grey-lighter color
+  </label>
+  <input id="sampleInputFieldSmall" class="c-field" type="text" placeholder="Username" disabled="">
   <div class="c-hint">test hint</div>
 </div>
 
@@ -104,9 +142,46 @@ title: "Inputs"
   <div class="c-hint c-hint--error">test hint</div>
 </div>
 
+```html
+<div class="u-bottom-margin--3x">
+  <label
+    class="c-label"
+    for="sampleInputFieldSmall1">
+    Username:
+  </label>
+  <input
+    id="sampleInputFieldSmall1"
+    class="c-field"
+    type="text"
+    placeholder="Username" />
+  <div class="c-hint">test hint</div>
+</div>
+
+<div class="u-bottom-margin--3x">
+  <label class="c-label u-color-neutral--grey-lighter" for="sampleInputFieldSmall">
+    for disabled input to give color to label u need to add ng-class for disabled with u-color-neutral--grey-lighter color
+  </label>
+  <input id="sampleInputFieldSmall" class="c-field" type="text" placeholder="Username" disabled="">
+  <div class="c-hint">test hint</div>
+</div>
+
+<div class="u-bottom-margin--1x">
+  <label
+    class="c-label"
+    for="sampleInputFieldSmall2">
+    Username:
+  </label>
+  <input
+    id="sampleInputFieldSmall2"
+    class="c-field c-field--error"
+    type="text"
+    placeholder="Username" />
+  <div class="c-hint c-hint--error">test hint</div>
+</div>
+```
+
 #### Inputs with Icons
 
-<label for="" class="c-label">input field with label and icon</label>
 <div class="o-field o-field--icon-left u-bottom-margin--1x">
   <div>
     <svg
@@ -144,7 +219,6 @@ title: "Inputs"
        </path>
     </svg>
   </div>
-
   <input class="c-field c-field--error" type="text" placeholder="input field with icon and error">
 </div>
 
@@ -163,13 +237,11 @@ title: "Inputs"
         d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z">
      </path>
   </svg>
-
   <input class="c-field c-field--large c-field--error" type="text" placeholder="small input field with icon and error">
 </div>
 
 <div class="o-field o-field--icon-right">
   <input class="c-field" type="text" placeholder="input field with right side icon">
-
   <svg
     class="o-field__icon"
     style="width: 14px; height: 16px;"
@@ -186,6 +258,32 @@ title: "Inputs"
   </svg>
 </div>
 
+```html
+<div class="o-field o-field--icon-left u-bottom-margin--1x">
+  <div>
+    <svg>...</svg>
+  </div>
+  <input class="c-field" type="text">
+</div>
+
+<div class="o-field o-field--icon-left u-bottom-margin--1x">
+  <div>
+    <svg>...</svg>
+  </div>
+  <input class="c-field c-field--error" type="text" placeholder="input field with icon and error">
+</div>
+
+<div class="o-field o-field--icon-left u-bottom-margin--1x">
+  <svg>...</svg>
+  <input class="c-field c-field--large c-field--error" type="text" placeholder="small input field with icon and error">
+</div>
+
+<div class="o-field o-field--icon-right">
+  <input class="c-field" type="text" placeholder="input field with right side icon">
+  <svg>...</svg>
+</div>
+```
+
 #### inline input groups
 <div class="c-input-group">
   <div class="o-field">
@@ -198,6 +296,20 @@ title: "Inputs"
     <input class="c-field" placeholder=".c-input-group">
   </div>
 </div>
+
+```html
+<div class="c-input-group">
+  <div class="o-field">
+    <input class="c-field" placeholder=".c-input-group">
+  </div>
+  <div class="o-field">
+    <input class="c-field" placeholder=".c-input-group">
+  </div>
+  <div class="o-field">
+    <input class="c-field" placeholder=".c-input-group">
+  </div>
+</div>
+```
 
 #### inline large input group
 
@@ -212,6 +324,20 @@ title: "Inputs"
     <input class="c-field c-field--large" placeholder=".c-input-group.c-field--large">
   </div>
 </div>
+
+```html
+<div class="c-input-group">
+  <div class="o-field">
+    <input class="c-field c-field--large" placeholder=".c-input-group.c-field--large">
+  </div>
+  <div class="o-field">
+    <input class="c-field c-field--large" placeholder=".c-input-group.c-field--large">
+  </div>
+  <div class="o-field">
+    <input class="c-field c-field--large" placeholder=".c-input-group.c-field--large">
+  </div>
+</div>
+```
 
 #### checkbox and radios with text
 

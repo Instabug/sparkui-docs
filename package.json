@@ -19,7 +19,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
-    "spark": "git@github.com:Instabug/sparkui.git#feature/spark-rebranding-typography"
+    "spark": "https://github.com/Instabug/sparkui.git"
   },
   "keywords": [
     "gatsby"
@@ -31,7 +31,7 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b deploys"
   },
   "devDependencies": {
     "gatsby-plugin-sass": "^2.0.4",
