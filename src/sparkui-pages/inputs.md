@@ -338,9 +338,61 @@ title: "Inputs"
   </div>
 </div>
 ```
+## Checkboxes and Radiobuttons :
+### Sizes
+Checkboxes comes in two sizes:
+1. Default (16px)
+<div class="c-choice c-choice--checkbox u-bottom-margin--2x">
+  <input
+    id="111"
+    class="c-choice__field"
+    type="checkbox">
+  <label
+    class="c-choice__label"
+    for="111">
+    <span class="c-choice__text">select all</span>
+  </label>
+</div>
+
+2. Small (12px)
+<div class="c-choice c-choice--checkbox c-choice--small u-bottom-margin--2x">
+  <input
+    id="112"
+    class="c-choice__field"
+    type="checkbox">
+  <label
+    class="c-choice__label"
+    for="112">
+    <span class="c-choice__text">select all</span>
+  </label>
+</div>
+
+Radiobuttons comes in one size (16px)
+<div class="c-choice c-choice--radio u-bottom-margin--2x">
+  <input
+  id="12"
+  class="c-choice__field"
+  type="radio">
+  <label
+  class="c-choice__label"
+  for="12">
+  <span class="c-choice__text">select all</span>
+</label>
+</div>
+
+### States
+1. Default
+2. Hover
+3. Selected
+4. Disabled
+
+### Label styles
+Label Name | Label Style
+-----------|------------
+1. Default normal proximaNova | `c-choice__label`
+2. Semi-bold ProximaNova | `c-choice__label.c-choice__label--semi-bold`
 
 #### checkbox and radios with text
-
 <div class="c-choice c-choice--checkbox u-bottom-margin--2x">
   <input
     id="111"
@@ -377,6 +429,43 @@ title: "Inputs"
 </label>
 </div>
 
+#### checkbox and radios with semi-bold text
+<div class="c-choice c-choice--checkbox u-bottom-margin--2x">
+  <input
+    id="112"
+    class="c-choice__field"
+    type="checkbox">
+  <label
+    class="c-choice__label c-choice__label--semi-bold"
+    for="112">
+    <span class="c-choice__text">select all</span>
+  </label>
+</div>
+
+<div class="c-choice c-choice--checkbox u-bottom-margin--2x">
+  <input
+    id="12i"
+    class="c-choice__field intermediate"
+    type="checkbox">
+  <label
+    class="c-choice__label c-choice__label--semi-bold"
+    for="12i">
+    <span class="c-choice__text">select all</span>
+  </label>
+</div>
+
+<div class="c-choice c-choice--radio u-bottom-margin--2x">
+  <input
+  id="radio-12"
+  class="c-choice__field"
+  type="radio">
+  <label
+  class="c-choice__label c-choice__label--semi-bold"
+  for="radio-12">
+  <span class="c-choice__text">select all</span>
+</label>
+</div>
+
 #### checkbox and radios without text
 
 <div class="c-choice c-choice--checkbox u-bottom-margin--2x">
@@ -392,12 +481,12 @@ title: "Inputs"
 
 <div class="c-choice c-choice--radio u-bottom-margin--2x">
   <input
-    id="112"
+    id="radio-3"
     class="c-choice__field"
     type="radio">
   <label
     class="c-choice__label"
-    for="112">
+    for="radio-3">
   </label>
 </div>
 
