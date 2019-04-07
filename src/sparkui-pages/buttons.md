@@ -7,71 +7,31 @@ title: "Buttons"
 # Buttons
 
 ## Demo
-Buttons classes can be applied to buttons, anchors and form inputs
-<div>
-    <button type="button" class="c-button c-button--info">Button</button>
-    <input type="button" class="c-button c-button--info" value="Input">
-    <a class="c-button c-button--info">anchor Link</a>
-    <button type="button" class="c-button c-button--info" disabled>disabled Button</button>
-</div>
-
-```html
-<button type="button" class="c-button c-button--info">Button</button>
-<input type="button" class="c-button c-button--info" value="Input">
-<a class="c-button c-button--info">anchor Link</a>
-<button type="button" class="c-button c-button--info" disabled>disabled Button</button>
-```
-
 ### Colors
-<button type="button" class="c-button c-button--default">Default Button</button>
 <button type="button" class="c-button c-button--info">info Button</button>
-<button type="button" class="c-button c-button--brand">brand Button</button>
-<button type="button" class="c-button c-button--warning">warning Button</button>
 <button type="button" class="c-button c-button--success">success Button</button>
 <button type="button" class="c-button c-button--error">error Button</button>
+<button type="button" class="c-button c-button--info" disabled>Disabled Button</button>
 
 ```html
-<button type="button" class="c-button c-button--default">Default Button</button>
 <button type="button" class="c-button c-button--info">info Button</button>
-<button type="button" class="c-button c-button--brand">brand Button</button>
-<button type="button" class="c-button c-button--warning">warning Button</button>
 <button type="button" class="c-button c-button--success">success Button</button>
 <button type="button" class="c-button c-button--error">error Button</button>
+<button type="button" class="c-button c-button--info" disabled>Disabled Button</button>
 ```
 
 ### Outline Colored Buttons
 #### Normal
 <button type="button" class="c-button c-button--outline-default">Button</button>
-<button type="button" class="c-button c-button--outline-brand">Button</button>
 <button type="button" class="c-button c-button--outline-info">Button</button>
-<button type="button" class="c-button c-button--outline-warning">Button</button>
 <button type="button" class="c-button c-button--outline-success">Button</button>
 <button type="button" class="c-button c-button--outline-error">Button</button>
 
 ```html
 <button type="button" class="c-button c-button--outline-default">Button</button>
-<button type="button" class="c-button c-button--outline-brand">Button</button>
 <button type="button" class="c-button c-button--outline-info">Button</button>
-<button type="button" class="c-button c-button--outline-warning">Button</button>
 <button type="button" class="c-button c-button--outline-success">Button</button>
 <button type="button" class="c-button c-button--outline-error">Button</button>
-```
-
-#### Rounded
-<button type="button" class="c-button c-button--rounded c-button--outline-default">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-brand">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-info">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-warning">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-success">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-error">Button</button>
-
-```html
-<button type="button" class="c-button c-button--rounded c-button--outline-default">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-brand">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-info">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-warning">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-success">Button</button>
-<button type="button" class="c-button c-button--rounded c-button--outline-error">Button</button>
 ```
 
 #### Sizes
@@ -112,6 +72,18 @@ this is mainly used with svg icons, in this type, height and width are the same
 
 ```html
   <button type="button" class="c-button c-button--info c-button--small c-button--square">
+    <svg ...></svg>
+  </button>
+```
+
+### Delete Button
+this is basically another square button, but has special behaviors on focus, hover, active states.
+<div>
+  <button type="button" class="c-button c-button--delete c-button--small c-button--square">D</button>
+</div>
+
+```html
+  <button type="button" class="c-button c-button--delete c-button--small c-button--square">
     <svg ...></svg>
   </button>
 ```
