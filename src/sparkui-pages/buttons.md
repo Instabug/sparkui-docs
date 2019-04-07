@@ -22,29 +22,29 @@ title: "Buttons"
 
 ### Outline Colored Buttons
 #### Normal
-<button type="button" class="c-button c-button--outline-default">Button</button>
+<button type="button" class="c-button c-button--outline-info">Button</button>
 <button type="button" class="c-button c-button--outline-info">Button</button>
 <button type="button" class="c-button c-button--outline-success">Button</button>
 <button type="button" class="c-button c-button--outline-error">Button</button>
 
 ```html
-<button type="button" class="c-button c-button--outline-default">Button</button>
+<button type="button" class="c-button c-button--outline-info">Button</button>
 <button type="button" class="c-button c-button--outline-info">Button</button>
 <button type="button" class="c-button c-button--outline-success">Button</button>
 <button type="button" class="c-button c-button--outline-error">Button</button>
 ```
 
 #### Sizes
-<button type="button" class="c-button c-button--outline-default c-button--small">Button</button>
+<button type="button" class="c-button c-button--outline-info c-button--small">Button</button>
 <button type="button" class="c-button c-button--outline-info c-button--medium">Button</button>
 <button type="button" class="c-button c-button--outline-warning c-button--large">Button</button>
 <button type="button" class="c-button c-button--outline-error c-button--xlarge">Button</button>
 
 ```html
-   <button type="button" class="c-button c-button--outline-default c-button--small">Button</button>
-   <button type="button" class="c-button c-button--outline-default c-button--medium">Button</button>
-   <button type="button" class="c-button c-button--outline-default c-button--large">Button</button>
-   <button type="button" class="c-button c-button--outline-default c-button--xlarge">Button</button>
+   <button type="button" class="c-button c-button--outline-info c-button--small">Button</button>
+   <button type="button" class="c-button c-button--outline-info c-button--medium">Button</button>
+   <button type="button" class="c-button c-button--outline-info c-button--large">Button</button>
+   <button type="button" class="c-button c-button--outline-info c-button--xlarge">Button</button>
 ```
 
 ### Sizes
@@ -115,7 +115,7 @@ this is basically another square button, but has special behaviors on focus, hov
 
 ### Buttons with Icons
 
-<button type="button" class="c-button c-button--outline-default c-button--large c-button--square">
+<button type="button" class="c-button c-button--outline-info c-button--large c-button--square">
  <svg
    viewBox="0 0 14.97 15"
    id="shape-filter"
