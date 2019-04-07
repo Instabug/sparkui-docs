@@ -37,8 +37,8 @@ title: "Buttons"
 #### Sizes
 <button type="button" class="c-button c-button--outline-info c-button--small">Button</button>
 <button type="button" class="c-button c-button--outline-info c-button--medium">Button</button>
-<button type="button" class="c-button c-button--outline-warning c-button--large">Button</button>
-<button type="button" class="c-button c-button--outline-error c-button--xlarge">Button</button>
+<button type="button" class="c-button c-button--outline-info c-button--large">Button</button>
+<button type="button" class="c-button c-button--outline-info c-button--xlarge">Button</button>
 
 ```html
    <button type="button" class="c-button c-button--outline-info c-button--small">Button</button>
