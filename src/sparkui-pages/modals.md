@@ -10,7 +10,7 @@ this is just the content of the modal styling
 
 ## Demo
 <div class="u-window-padding--4x">
-  <div class="c-modal u-box-shadow--higher">
+  <div class="c-modal">
       <div class="c-modal__header u-pillar-padding--2x">
           <div>
               Modal Action Titles
@@ -34,7 +34,7 @@ this is just the content of the modal styling
 </div>
 
 ```html
-<div class="c-modal u-box-shadow--higher">
+<div class="c-modal">
     <div class="c-modal__header u-pillar-padding--2x">
         <div>
             Modal Action Titles
@@ -61,7 +61,7 @@ this is just the content of the modal styling
 This component has the following classes list
   * `.c-modal` this is the main container of the modal window, this doesn't
   add any shadows, padding or margin, so you need to set them using utilities,
-  default shadow utilities class is `.u-box-shadow--higher`
+  default shadow level is `all-over`
   * `.c-modal__header` set the header border colors and header height, same as
   container, you need to add paddings or margin using utils classes
   * `.c-modal__header` set the header border colors and header height, same as

@@ -8,19 +8,19 @@ title: "Cards"
 ## Demo
 
 ### card without header or footer
-<div class="c-spark-card u-box-shadow u-window-margin--2x">
+<div class="c-spark-card u-window-margin--2x">
   <div class="c-spark-card__body u-pillar-margin--3x u-letter-margin--2x">
     This is a card container without header or footer
   </div>
 </div>
 
 ### card with header and footer
-<div class="c-spark-card u-box-shadow u-window-margin--2x">
+<div class="c-spark-card u-window-margin--2x">
   <div class="c-spark-card__header">
     <div class="c-spark-card__title u-font--bold u-flex-1">
       Card Title wrapped in `.c-spark-card__title`
     </div>
-    <a href="#"> and this is header link</a>
+    <a class="o-link o-link--underline" href="#"> and this is header link</a>
   </div>
   <div class="c-spark-card__body u-pillar-margin--3x u-letter-margin--2x">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maiores facere est. Odio consectetur expedita fugiat sequi amet harum quidem blanditiis temporibus fugit, odit maiores quisquam unde voluptas ipsum dolor.</p>
@@ -33,7 +33,7 @@ title: "Cards"
 </div>
 
 ```html
-<div class="c-spark-card u-box-shadow u-window-margin--2x">
+<div class="c-spark-card u-window-margin--2x">
   <div class="c-spark-card__header">
     <div class="c-spark-card__title u-font--bold u-flex-1">
       Card Title...
