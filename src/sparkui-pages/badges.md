@@ -4,6 +4,17 @@ date: "2017-11-07"
 title: "Badges"
 ---
 # Badges
+Badges have two width variations:
+1. Default style;
+<div class="u-window-padding--2x u-display-flex">
+  <span class="c-badge u-bg-neutral--sky-lighter u-color-neutral--ink-lighter u-font--semibold">Q1</span>
+</div>
+
+2. With min-width `96px` using class `c-badge--with-min-width`;
+<div class="u-window-padding--2x">
+  <span class="c-badge c-badge--with-min-width u-bg-visuals-categorical--green u-color-neutral--sky-white u-font--semibold">Completed</span>
+</div>
+
 
 ## Demo
 ### Light Background variations
@@ -28,6 +39,7 @@ title: "Badges"
 ```
 
 ## Usage
-* `c-badge` is the main component class, it has 4 variations `c-badge--dark`, `c-badge--outline-dark`
-, `c-badge--light` and `c-badge--outline--light`, you can use any color using color background utilities
+* `c-badge` is the main component class.
+* `c-badge--with-min-width` to add min-width constraint on badge.
+* you can use any color using color background utilities
 classes `u-bg-****`
