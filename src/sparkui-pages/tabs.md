@@ -12,10 +12,10 @@ Can pass `c-tab--active` to add classes for current active tab
 <div class="c-tabs--paper u-window-border--0">
   <ul class="c-tabs">
     <li class="c-tabs__title c-tab--active">
-      <a>Bugs</a>
+      <a class="c-tabs__link">Bugs</a>
     </li>
     <li class="c-tabs__title">
-      <a>Crashes</a>
+      <a class="c-tabs__link">Crashes</a>
     </li>
   </ul>
 </div>
