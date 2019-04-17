@@ -25,12 +25,14 @@ title: "Buttons"
 <button type="button" class="c-button c-button--outline-info">Button</button>
 <button type="button" class="c-button c-button--outline-success">Button</button>
 <button type="button" class="c-button c-button--outline-error">Button</button>
+<button type="button" class="c-button c-button--outline-default">Button</button>
 <button type="button" class="c-button c-button--outline-info" disabled>Button</button>
 
 ```html
 <button type="button" class="c-button c-button--outline-info">Button</button>
 <button type="button" class="c-button c-button--outline-success">Button</button>
 <button type="button" class="c-button c-button--outline-error">Button</button>
+<button type="button" class="c-button c-button--outline-default">Button</button>
 <button type="button" class="c-button c-button--outline-info" disabled>Button</button>
 ```
 
