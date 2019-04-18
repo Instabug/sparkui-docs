@@ -119,7 +119,7 @@ title: "Dropdowns"
         </div>
       </toggle>
     </span>
-  </spark-dropdown-toggle> 
+  </spark-dropdown-toggle>
 
   <spark-dropdown-toggle class="has-arrow">
     <span class="is-open">
@@ -284,8 +284,8 @@ dropdown button can have any content
           <span class="o-circle -no-border -size-24 u-left-margin--half-x u-right-margin--1x" style="background-color:#ff0000">
           </span>
           <div class="u-flex-grow--1 u-flex-shrink--1 u-overflow--hidden u-left-margin--half-x">
-            <div class="u-font--xsmall u-color-ink-0 u-font--normal">Status</div>
-            <div class="u-font--small u-text--trim u-font--semibold u-color-ink-0">New</div>
+            <div class="u-font--xsmall u-color--ink-0 u-font--normal">Status</div>
+            <div class="u-font--small u-text--trim u-font--semibold u-color--ink-0">New</div>
           </div>
         </div>
       </div>
@@ -302,8 +302,8 @@ dropdown button can have any content
           <span class="o-circle -no-border -size-24 u-left-margin--half-x u-right-margin--1x" style="background-color:#ff0000">
           </span>
           <div class="u-flex-grow--1 u-flex-shrink--1 u-overflow--hidden u-left-margin--half-x">
-            <div class="u-font--xsmall u-color-ink-0 u-font--normal">Status</div>
-            <div class="u-font--small u-text--trim u-font--semibold u-color-ink-0">New</div>
+            <div class="u-font--xsmall u-color--ink-0 u-font--normal">Status</div>
+            <div class="u-font--small u-text--trim u-font--semibold u-color--ink-0">New</div>
           </div>
         </div>
       </div>
@@ -331,7 +331,7 @@ by adding ```is-open``` class to both toogle button and pane
           <div class="c-dropdown--search o-field o-field--icon-right is-open">
             <input class="c-dropdown--field c-field c-field--medium open-field" type="text" placeholder="Search">
             <span class="o-field__icon">
-              <svg class="icon-14x14 u-color-grey-1 u-display-block">
+              <svg class="icon-14x14 u-color--grey-1 u-display-block">
                   <use xlink:href="#shape-search"></use>
               </svg>
             </span>
@@ -380,7 +380,7 @@ by adding ```is-open``` class to both toogle button and pane
             <div class="c-dropdown--search o-field o-field--icon-right is-open">
               <input class="c-dropdown--field c-field c-field--medium open-field" type="text" placeholder="Search">
               <span class="o-field__icon">
-                <svg class="icon-14x14 u-color-grey-1 u-display-block">
+                <svg class="icon-14x14 u-color--grey-1 u-display-block">
                     <use xlink:href="#shape-search"></use>
                 </svg>
               </span>
@@ -429,7 +429,7 @@ by adding ```is-open``` class to both toogle button and pane
             <div class="c-dropdown--search o-field o-field--icon-right is-open">
               <input class="c-dropdown--field c-field c-field--medium" type="text" placeholder="Search">
               <span class="o-field__icon">
-                <svg class="icon-14x14 u-color-grey-1 u-display-block">
+                <svg class="icon-14x14 u-color--grey-1 u-display-block">
                   <use xlink:href="#shape-search"></use>
                 </svg>
               </span>
