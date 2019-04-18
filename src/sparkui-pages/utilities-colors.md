@@ -9,10 +9,10 @@ utilities classes formulas are:
 
 Class | Usage
 ------|------
-`u-color-[COLOR_CLASS]--[COLOR_NAME]` | set current container font color to the selected color
-`u-bg-[COLOR_CLASS]--[COLOR_NAME]` | set current container background color to the selected color
-`u-fill-[COLOR_CLASS]--[COLOR_NAME]` | set current svg fill color to the selected color
-`u-stroke-[COLOR_CLASS]--[COLOR_NAME]` | set current svg stroke color to the selected color
+`u-color--[COLOR_NAME]` | set current container font color to the selected color
+`u-bg--[COLOR_NAME]` | set current container background color to the selected color
+`u-fill--[COLOR_NAME]` | set current svg fill color to the selected color
+`u-stroke--[COLOR_NAME]` | set current svg stroke color to the selected color
 
 You can find a list of all [SprakUI Colors](colors)
 

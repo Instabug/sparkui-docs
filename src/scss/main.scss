@@ -33,7 +33,7 @@
 .spark-docs-sidebar {
   padding: 8px 0;
   min-width: 230px;
-  border-right: 1px solid color(accent, blue-lighter);
+  border-right: 1px solid $spark-color-blue-lighter;
   overflow-y: scroll;
 
   .spark-docs-sidebar-item {
@@ -46,9 +46,9 @@
   }
 
   .spark-docs-sidebar-item--current {
-    border-right-color: color(accent, blue);
-    background-color: color(accent, blue-lighter);
-    color: color(accent, blue-darker);
+    border-right-color: $spark-color-blue;
+    background-color: $spark-color-blue-lighter;
+    color: $spark-color-blue-darker;
   }
 }
 

@@ -121,8 +121,8 @@ title: "Inputs"
 </div>
 
 <div class="u-bottom-margin--3x">
-  <label class="c-label u-color-neutral--grey-lighter" for="sampleInputFieldSmall">
-    for disabled input to give color to label u need to add ng-class for disabled with u-color-neutral--grey-lighter color
+  <label class="c-label u-color--grey-lighter" for="sampleInputFieldSmall">
+    for disabled input to give color to label u need to add ng-class for disabled with u-color--grey-lighter color
   </label>
   <input id="sampleInputFieldSmall" class="c-field" type="text" placeholder="Username" disabled="">
   <div class="c-hint">test hint</div>
@@ -158,8 +158,8 @@ title: "Inputs"
 </div>
 
 <div class="u-bottom-margin--3x">
-  <label class="c-label u-color-neutral--grey-lighter" for="sampleInputFieldSmall">
-    for disabled input to give color to label u need to add ng-class for disabled with u-color-neutral--grey-lighter color
+  <label class="c-label u-color--grey-lighter" for="sampleInputFieldSmall">
+    for disabled input to give color to label u need to add ng-class for disabled with u-color--grey-lighter color
   </label>
   <input id="sampleInputFieldSmall" class="c-field" type="text" placeholder="Username" disabled="">
   <div class="c-hint">test hint</div>

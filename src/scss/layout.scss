@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  color: color(neutral, ink);
+  color: $spark-color-ink;
 }
 article,
 aside,
@@ -307,7 +307,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-  border-bottom: 1px solid color(accent, blue-lighter);
+  border-bottom: 1px solid $spark-color-blue-lighter;
   padding-bottom: 2px;
 }
 
@@ -536,7 +536,7 @@ code {
   // font-size: 0.85rem;
   line-height: 1.45rem;
   padding: 2px !important;
-  color: color(accent, blue-dark);
+  color: $spark-color-blue-dark;
 }
 kbd {
   font-size: 0.85rem;

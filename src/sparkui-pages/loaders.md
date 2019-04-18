@@ -39,12 +39,12 @@ use it by apply the `c-loader--dark-container` modifier class
 <div class="u-display-flex u-flex--row u-align-items--center u-bg-blue u-window-padding--1x">
   <div class="u-display-flex u-flex-grow--1 u-justify-content--center u-align-items--center">
     <div class="c-loader c-loader--small c-loader--dark-container"></div>
-    <span class="u-left-margin--1x u-color-white">small loader</span>
+    <span class="u-left-margin--1x u-color--white">small loader</span>
   </div>
 
   <div class="u-display-flex u-flex-grow--1 u-justify-content--center u-align-items--center">
     <div class="c-loader c-loader--large c-loader--dark-container"></div>
-    <span class="u-left-margin--2x u-color-white">large loader</span>
+    <span class="u-left-margin--2x u-color--white">large loader</span>
   </div>
 </div>
 

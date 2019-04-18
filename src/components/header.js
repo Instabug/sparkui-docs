@@ -5,7 +5,7 @@ const Header = ({ siteTitle }) => (
   <div className="spark-docs-layout__header">
     <Link
       to="/"
-      className="u-color-ink u-font--super"
+      className="u-color--ink u-font--super"
       style={{
         textDecoration: 'none',
       }}>
