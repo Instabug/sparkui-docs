@@ -17,6 +17,10 @@ const Layout = ({ children }) => (
           siteMetadata {
             title
           }
+        },
+        siteBuildMetadata {
+          buildTime,
+          buildTimeAgo: buildTime(fromNow: true)
         }
       }
     `}
@@ -34,7 +38,7 @@ const Layout = ({ children }) => (
         <div className="spark-docs-container">
             <Header siteTitle={data.site.siteMetadata.title} />
             <div className="spark-docs-layout">
-                <Sidebar/>
+                <Sidebar buildInfo={data.siteBuildMetadata} />
                 <div className="spark-docs-details-body">
                   {children}
                 </div>

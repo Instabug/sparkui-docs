@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticQuery, Link, graphql } from 'gatsby'
 // import PropTypes from 'prop-types'
 // import './layout.css'
-const Sidebar = ({ data }) => (
+const Sidebar = ({ data, buildInfo }) => (
     <StaticQuery
       query={graphql`
         query {
@@ -26,6 +26,9 @@ const Sidebar = ({ data }) => (
       render={ data => (
           <div className="spark-docs-sidebar">
             <PagesList pages={data.allMarkdownRemark.edges} />
+            <div class="u-color--grey-light">
+              built at <span class="" title={buildInfo.buildTime}>{buildInfo.buildTimeAgo}</span>
+            </div>
           </div>
         )
       }
