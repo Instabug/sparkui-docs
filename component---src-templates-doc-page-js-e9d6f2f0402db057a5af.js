@@ -1,0 +1,2 @@
+(self.webpackChunkintabug_sparkui_documentation=self.webpackChunkintabug_sparkui_documentation||[]).push([[644],{3023:function(a,e,n){"use strict";n.r(e);var t=n(7294),u=n(9792);e.default=function(a){var e=a.data.markdownRemark.html;return t.createElement(u.Z,null,t.createElement("div",{className:"spark-docs-details-body u-window-padding--2x",dangerouslySetInnerHTML:{__html:e}}))}}}]);
+//# sourceMappingURL=component---src-templates-doc-page-js-e9d6f2f0402db057a5af.js.map

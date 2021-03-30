@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{129:function(e,n,a){"use strict";a.r(n);var t=a(0),s=a.n(t),l=a(133);n.default=function(){return s.a.createElement(l.a,null,s.a.createElement("div",{className:"spark-docs-details-body u-window-padding--1x"},s.a.createElement("h1",null,"Spark UI"),s.a.createElement("p",null,"instabug design system documentation")))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-8aaeb5959f7a0178ed01.js.map

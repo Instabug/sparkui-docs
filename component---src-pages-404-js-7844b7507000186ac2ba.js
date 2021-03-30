@@ -1,0 +1,2 @@
+(self.webpackChunkintabug_sparkui_documentation=self.webpackChunkintabug_sparkui_documentation||[]).push([[883],{9616:function(e,t,n){"use strict";n.r(t);var u=n(7294),a=n(9792);t.default=function(){return u.createElement(a.Z,null,u.createElement("h1",null,"NOT FOUND"),u.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-7844b7507000186ac2ba.js.map

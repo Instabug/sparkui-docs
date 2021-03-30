@@ -1,0 +1,2 @@
+(self.webpackChunkintabug_sparkui_documentation=self.webpackChunkintabug_sparkui_documentation||[]).push([[678],{7704:function(e,n,t){"use strict";t.r(n);var a=t(7294),u=t(9792);n.default=function(){return a.createElement(u.Z,null,a.createElement("div",{className:"spark-docs-details-body u-window-padding--1x"},a.createElement("h1",null,"Spark UI"),a.createElement("p",null,"instabug design system documentation")))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-2ddbcabe3c38eed861d3.js.map
